@@ -1,0 +1,8 @@
+.input-xm{
+    margin-top: 3px;
+    border-top: 0px;
+}
+.input-xm[type="text"]{
+    border-top: 0px;
+
+}

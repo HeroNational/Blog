@@ -1,0 +1,277 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+body{
+    font-family: "monospace",sans-serif;
+    background-image:linear-gradient(rgba(20, 7, 7, 0.308),rgba(20, 7, 7, 0.308),rgba(194, 113, 6, 0.219)), url(../images/f.jpg);
+    background-size:cover;
+    background-position: right;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 2px darkorange;
+    border-style: outset;
+
+}
+header{
+    height: 100vh;
+}
+.logo img{
+    width: 10%;
+    height:10%;
+    font-size: 1430%;
+    padding: 4px;
+    border-radius:9px;
+    margin-top: 20px;
+}
+.row{
+    margin-top: 0%;
+    padding: 0px;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+.button{
+    margin: 30px;
+    animation: bounceInUp 3s;
+    -webkit-animation: bounceInUp 3s;
+    margin-top: 5%;
+}
+
+.btn{
+    border: 1px solid;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: none;
+    padding: 10px 30px;
+    display: inline-grid;
+    margin-top: -15px;
+    width: 10%;
+    height: 20px;
+    overflow: hidden;
+    align-content: center;
+}
+
+.btn-one{
+    font-family: "roboto", sans-serif;
+    transition: ease-in-out 750ms;
+    -webkit-transition: ease-in-out 750ms;
+    -moz-transition: ease-in-out 750ms;
+    -ms-transition: ease-in-out 750ms;
+    -o-transition: ease-in-out 750ms;
+    margin-top: 10px;
+    font-family: "roboto", sans-serif;
+    transition: ease-in-out 750ms;
+    -webkit-transition: ease-in-out 750ms;
+    -moz-transition: ease-in-out 750ms;
+    -ms-transition: ease-in-out 750ms;
+    -o-transition: ease-in-out 750ms;
+    animation: rollIn 1s;
+    margin-top: 10px;
+    -webkit-animation: rollIn 1s;
+}
+.btn-two{
+    font-family: "roboto", sans-serif;
+    transition: ease-in-out 750ms;
+    -webkit-transition: ease-in-out 750ms;
+    -moz-transition: ease-in-out 750ms;
+    -ms-transition: ease-in-out 750ms;
+    -o-transition: ease-in-out 750ms;
+    margin-top: 10px;
+    font-family: "roboto", sans-serif;
+    transition: ease-in-out 750ms;
+    -webkit-transition: ease-in-out 750ms;
+    -moz-transition: ease-in-out 750ms;
+    -ms-transition: ease-in-out 750ms;
+    -o-transition: ease-in-out 750ms;
+    animation: rollIn 3s both;
+    margin-top: 10px;
+    -webkit-animation: rollIn 3s both;
+}
+.btn-three{
+    font-family: "roboto", sans-serif;
+    transition: ease-in-out 750ms;
+    -webkit-transition: ease-in-out 750ms;
+    -moz-transition: ease-in-out 750ms;
+    -ms-transition: ease-in-out 750ms;
+    -o-transition: ease-in-out 750ms;
+    margin-top: 10px;
+    font-family: "roboto", sans-serif;
+    transition: ease-in-out 750ms;
+    -webkit-transition: ease-in-out 750ms;
+    -moz-transition: ease-in-out 750ms;
+    -ms-transition: ease-in-out 750ms;
+    -o-transition: ease-in-out 750ms;
+    animation: rollIn 3s;
+    margin-top: 10px;
+    -webkit-animation: rollIn 3s;
+}
+.btn:hover{
+    font-family: "roboto", sans-serif;
+    background: darkorange;
+}
+
+
+/*===================================RESPO===================================================================================================================================*/
+
+.ul-r{
+    margin: 15px;
+    padding: 0px;
+    list-style-type: none;
+}
+.li-p-r{
+    width: 150px;
+    background: rgba(105, 41, 41, 0.521);
+    color:white;
+    opacity:0.9;
+    font-size: 15px;
+    text-align:center;  
+    right: 0%;
+    padding-top: 5px;  
+    top:0;
+}
+.a-r{
+    margin-right: 0%;
+    text-decoration: none;
+    line-height: 25px;
+    color: rgb(252, 245, 207);
+}
+.active a{
+    border: 1px solid white;
+}
+.li-r{
+    text-align: left;
+    transition: ease-in-out 800ms;
+    -webkit-transition: ease-in-out 800ms;
+    -moz-transition: ease-in-out 800ms;
+    -ms-transition: ease-in-out 800ms;
+    -o-transition: ease-in-out 800ms;
+}
+.li-r:hover{
+    background: rgba(163, 45, 29, 0.863);
+    scale: 0.5;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+/*===================================RESPO===================================================================================================================================*/
+/*===================================SLIDEIDNTITY===================================================================================================================================*/
+
+
+.container-id{
+    text-align: center;
+    position: relative;
+    color: white;
+    top:5%;
+    left:50%;
+    width: 100%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+}
+
+.container-id span{
+    color:white;
+    text-transform: uppercase;
+    display: block;
+}
+.text{
+    margin-top: 36px;
+}
+span.text1{
+    font-size: 180%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-top: 10%;
+    animation: text 3S 0s;
+    color:rgba(191, 236, 215, 0.623);
+    animation:bounceInLeft 4s  0s;
+    -webkit-animation:bounceInLeft 4s  0s;
+}
+span.text2{
+    color: rgb(199, 121, 5);
+    font-size: 30px;
+    animation: fadeIn 3s;
+    transition:0.5s;
+    -webkit-animation:fontnul 2.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    animation:fontnul 2.5s;
+    -o-transition:0.5s;
+}
+span.text3{
+    font-size: 30px;
+    margin-top: 10px;
+    text-transform: none;
+    color: #fca401cb;
+    animation: fadeIn 5s  cubic-bezier(0.1, 1, 1, 1) 2s;
+    -webkit-animation: fadeIn 5s  cubic-bezier(0.1, 1, 1, 1) 2s;
+}
+@keyframes fontnul{
+    0%{
+        font-size: 0%;
+    }
+    100%{
+        font-size: unset;
+    }
+}
+@keyframes text{
+    0%{       
+         color: rgba(191, 236, 215, 0.623);
+        font-size: 0%;
+        scale: 0;
+    }
+    20%{        
+        color: rgba(191, 236, 215, 0.623);
+        margin-bottom: -40px;
+    }
+    30%{        
+        letter-spacing: 25px;
+        color: rgba(191, 236, 215, 0.623);
+        margin-bottom: -40px;
+    }
+    80%{
+        color: rgba(191, 236, 215, 0.623);
+        letter-spacing: 3px;
+        margin-bottom: -40px;
+    }
+    100%{        
+        color: rgba(191, 236, 215, 0.623);
+    }
+}
+
+@keyframes fontnul{
+    0%{
+        font-size: 0px;
+    }
+    20%{
+        font-size:0px;
+    }
+    30%{
+        font-size:0px;
+    }
+    50%{
+        font-size:0px;
+    }
+    80%{
+        font-size:0px;
+    }
+    100%{
+        font-size:30px;
+    }
+}

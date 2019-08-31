@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding:0px;
+    line-height:20px;
+}
+body{
+    background: url(../images/4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+}
+legend{
+    font-size: 20px;
+}
+.cont{
+    position: relative;
+    bottom: 10%;
+    top:25px;
+    align-self: center;
+    border: 0.5mm solid pink;
+    width: 50%;
+    padding-top: 60px;
+    background: rgba(0, 0, 0, 0.082);
+}
+
+
+.date{
+    display: inline-table;
+
+}
+option:hover{
+    background:rgba(255, 0, 98, 0.212);
+}
+
+input, select{
+    border: 0px;
+    border-bottom: 1px solid orange;
+    padding: 8px 3px;
+    background: transparent;
+}
+input{
+    width: 70%;
+    color:rgb(153, 25, 147);
+}
+.jou{
+    width: 46px;
+}
+select{
+    width: 75px;
+    color: rgb(194, 13, 13);
+    margin-left: 0px;
+    border-radius:3px;
+    align-content: center;
+}
+#nexta{
+    position: relative;
+    border:1px solid orange;
+    padding: 3px 30px;
+    background: rgba(129, 1, 1, 0.548);
+    color:whitesmoke;
+    bottom: 10px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+#right{
+    font-size:0px;
+}
+#nexta:hover{
+    transition:1s ease-in-out;
+    background: rgba(127, 4, 138, 0.575);
+    animation: shake 200ms linear;
+    -webkit-animation: shake 200ms linear;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -ms-transition:1s ease-in-out;
+    -o-transition:1s ease-in-out;
+}
+input:hover, select:hover{
+    animation:loading 2s linear;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.315);
+    border-top-right-radius: 5px;
+    padding-top: 7px;
+    border-top-left-radius: 5px;
+    -webkit-animation:loading 6s linear infinite;
+}
+@keyframes loading{
+    0%{
+    border-bottom: 2px solid rgb(202, 65, 1);
+    }
+    25%{
+    border-bottom: 2px solid rgb(93, 148, 3);
+    }
+    50%{
+    border-bottom: 2px solid rgba(105, 7, 89, 0.795);
+    }
+    75%{
+    border-bottom: 2px solid rgb(221, 5, 41);
+    }
+    100%{
+    border-bottom: 2px solid rgb(202, 65, 1);
+    }
+}
+@media screen and (max-width:421px){
+    body{
+        background: url(../images/3.jpg);
+        animation: moving 250s linear;
+        -webkit-animation: moving 250s linear;
+}       
+    legend{
+        font-size: 15px;
+        }
+    .cont{
+        position: relative;
+        align-self: center;
+        border: 0.5mm solid rgba(121, 3, 82, 0.616);
+        width: 100%;
+        background: rgba(0, 0, 0, 0.082);
+        margin-top: 0%;
+        padding-top: 0px;
+        top:0px;
+    }
+    *{
+        font-size: 16px;
+    }
+    fieldset{
+        margin:0px;
+    }
+    legend{
+        margin:0px;
+    }
+    #nexta{
+        position: relative;
+        background:transparent;
+        border: 0px;
+    }
+    
+    #nexta:hover{
+    background: transparent;
+}
+    select{
+        color:rgb(122, 28, 40);
+        width: 105px;
+        align-items: center;
+    }
+     .date .année{
+        width:20px;
+    }
+    .nextb{
+        font-size:0px;
+    }
+    #right{
+        position:fixed;
+        right:4px;
+        top:50%;
+        font-size:40px;
+        color: rgba(107, 7, 7, 0.767);
+        animation: bonunceInRight 2s linear;
+        -webkit-animation: bonunceInRight 2s linear;
+}
+@keyframes moving {
+    0%{
+        background-position: left;
+    }
+    25%{
+        background-position: top;
+    }
+    50%{
+        background-position: right;
+    }
+    75%{
+        background-position: left;
+    }
+    100%{
+        background-position: bottom;
+    }
+}
+}

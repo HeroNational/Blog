@@ -1,0 +1,13 @@
+span.animatea{
+        animation:bounceInLeft 6s linear ;
+        -webkit-animation:bounceInLeft 6s linear ;
+}
+span.animateb{
+        animation:bounceInTop 6s linear ;
+        -webkit-animation:bounceInTop 6s linear ;
+}
+span.animatec{
+        animation:bounceInDown 6s linear ;
+        -webkit-animation:bounceInDown 6s linear ;
+}
+
